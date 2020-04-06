@@ -9,13 +9,8 @@ import cv2
 
 path = 'image/tom.jpg'
 
-def main():
-    img = cv2.imread(path)
-    cv2.imshow('tom',img)
-    
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+img = cv2.imread(path)
+cv2.imshow('tom',img)
 
-if __name__ == '__main__':
-    main()
-    
+cv2.waitKey(0)
+cv2.destroyAllWindows()
